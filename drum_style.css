@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background: url('music_notes.jpg');
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #f9f8f8;
+    font-family: cursive;
+    text-shadow: 2px 0 #000000;
+  
+  }
+  .set {
+    margin: 10% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  .outer{
+    width: 64vw;
+    height: 64vh;
+    margin: 17rem;
+    margin-top: 4rem;
+    /* margin-left: 19rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a06060;
+    border-radius: 180px 180px 40px 40px;
+}
+  .drum {
+    outline: none;
+    border: 10px solid #a06060;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: rgb(240, 141, 158);
+    text-shadow: 3px 0 #eb052b;
+    border-radius: 25px 10px 35px 10px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
